@@ -9,7 +9,7 @@ function TeamFaces() {
 				<Carousel autoplay>
 					<div className={styles.teamImageStyle}>
 						<img
-							src='/assets/images/team-image-5.jpg'
+							src='/assets/images/team-image-5.png'
 							width='100%'
 							height='100%'
 							alt='Team'
@@ -18,7 +18,7 @@ function TeamFaces() {
 					</div>
 					<div className={styles.teamImageStyle}>
 						<img
-							src='/assets/images/team-image-6.jpg'
+							src='/assets/images/team-image-6.png'
 							width='100%'
 							height='100%'
 							alt='Team'
