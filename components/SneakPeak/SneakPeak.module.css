@@ -1,0 +1,42 @@
+#sneakPeakText {
+	font-size: 2.5rem;
+	line-height: 2.93rem;
+	color: #373737;
+	font-weight: 500;
+}
+
+.videoContainer {
+	height: 385px;
+	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.videoContainer {
+		height: 220px;
+	}
+	#sneakPeakText {
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.videoContainer {
+		height: 500px;
+		width: 70%;
+		margin: 5rem 0;
+	}
+	#sneakPeakText {
+		font-size: 3.5rem;
+		line-height: 3.93rem;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	.videoContainer {
+		height: 700px;
+		width: 80%;
+		margin: 5rem 0;
+	}
+}

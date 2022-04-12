@@ -1,0 +1,20 @@
+.videoCardContainer {
+	/* padding: 1rem; */
+	margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+	.videoCardContainer {
+		margin: 2rem 0.5rem;
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.videoCardContainer {
+		min-height: 400px;
+	}
+	#subText {
+		font-size: 2rem;
+	}
+}

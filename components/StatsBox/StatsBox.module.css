@@ -1,0 +1,47 @@
+.statsBoxContainer {
+	/* min-height: 100%; */
+	min-height: 200px;
+	max-height: 200px;
+}
+
+.statsBoxTop {
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 0;
+}
+
+.statsBoxBottom {
+	border-radius: 0 0 20px 20px;
+	font-size: 14px;
+	padding: 1rem;
+	color: #000;
+	background-color: #e5e5e5;
+	/* min-height: 100%; */
+	min-height: 150px;
+	max-height: 150px;
+	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.statsBoxBottom {
+		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.statsBoxTop {
+		font-size: 3rem;
+		padding: 0.5rem 0;
+	}
+
+	.statsBoxBottom {
+		font-size: 24px;
+		padding: 2rem;
+		min-height: 250px;
+		max-height: 250px;
+	}
+}

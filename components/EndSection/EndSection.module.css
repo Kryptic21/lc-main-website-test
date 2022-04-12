@@ -1,0 +1,96 @@
+.endSectionWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+#endSectionText {
+	font-weight: 600;
+	font-size: 3.1rem;
+	line-height: 3.6rem;
+	text-align: center;
+	color: #373737;
+	margin-bottom: 21px;
+}
+
+#endSectionTextHindi {
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 3.6rem;
+	text-align: center;
+	color: #373737;
+	margin-top: 0;
+}
+
+#buttonPrimary {
+	background: radial-gradient(
+		100% 1267.36% at 0% 50%,
+		#f42b4d 0%,
+		#fa541a 100%
+	);
+	border-radius: 30px;
+	text-align: center;
+	color: #ffffff;
+	padding: 12px 75px;
+	height: 100%;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+}
+
+@media screen and (max-width: 760px) {
+	#endSectionText {
+		font-size: 1.37rem;
+		line-height: 1.6rem;
+		text-align: center;
+	}
+	#endSectionTextHindi {
+		font-size: 1.1rem;
+		text-align: center;
+	}
+	#buttonPrimary {
+		width: 100%;
+		padding: 1rem;
+		font-size: 1.1rem;
+		line-height: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.endSectionWrapper {
+		margin: 6rem 0;
+	}
+	#endSectionText {
+		font-size: 4.1rem;
+		line-height: 4.6rem;
+		text-align: center;
+	}
+	#endSectionTextHindi {
+		font-size: 2.8rem;
+		line-height: 4.6rem;
+		text-align: center;
+	}
+	#buttonPrimary {
+		/* width: 30%; */
+		padding: 3rem 8rem;
+		font-size: 2.8rem;
+		line-height: 3rem;
+		text-align: center;
+		margin-top: 4rem;
+		border-radius: 100px;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	#buttonPrimary {
+		/* width: 30%; */
+		padding: 3rem 8rem;
+		font-size: 2.8rem;
+		line-height: 3rem;
+		text-align: center;
+		margin-top: 4rem;
+		border-radius: 100px;
+	}
+}

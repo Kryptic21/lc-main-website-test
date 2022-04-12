@@ -1,0 +1,95 @@
+.mainSectionWrapper {
+	background-color: #f6f6f6;
+	padding: 2.5rem 7.3rem;
+	display: flex;
+	justify-content: space-between;
+	/* padding: 2rem 7.3rem; */
+}
+
+.membersCompaniesWrapper {
+	background-color: #ffffff;
+	padding: 5rem 7.3rem;
+	/* padding-top: 2.53rem; */
+}
+
+.testimonialsContainer {
+	background-color: #f6f6f6;
+	padding: 5rem 11.25rem;
+}
+
+.sneakPeakWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+.adVideosContainer {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+.endSectionContainer {
+	background-color: #fff;
+	padding-top: 5rem;
+	padding-bottom: 7.1rem;
+}
+
+@media screen and (max-width: 800px) {
+	.endSectionContainer,
+	.adVideosContainer,
+	.sneakPeakWrapper,
+	.testimonialsContainer,
+	.membersCompaniesWrapper {
+		padding: 2rem 1rem;
+	}
+	.mainSectionWrapper {
+		padding: 1rem;
+		justify-content: center;
+	}
+
+	.endSectionContainer {
+		padding-bottom: 5rem;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.mainSectionWrapper,
+	.endSectionContainer,
+	.adVideosContainer,
+	.sneakPeakWrapper,
+	.testimonialsContainer,
+	.membersCompaniesWrapper {
+		padding-left: 25rem;
+		padding-right: 25rem;
+	}
+	.mainSectionWrapper {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.mainSectionWrapper,
+	.endSectionContainer,
+	.adVideosContainer,
+	.sneakPeakWrapper,
+	.testimonialsContainer,
+	.membersCompaniesWrapper {
+		padding-left: 25rem;
+		padding-right: 25rem;
+	}
+	.mainSectionWrapper {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	.mainSectionWrapper,
+	.endSectionContainer,
+	.adVideosContainer,
+	.sneakPeakWrapper,
+	.testimonialsContainer,
+	.membersCompaniesWrapper {
+		padding: 1% 25%;
+	}
+}

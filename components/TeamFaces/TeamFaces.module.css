@@ -1,0 +1,18 @@
+.teamImageStyle {
+	height: 325px;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+	.teamImageStyle {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.teamImageStyle {
+		height: 100%;
+		object-fit: contain;
+	}
+}

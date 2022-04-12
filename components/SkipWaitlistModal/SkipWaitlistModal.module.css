@@ -1,0 +1,96 @@
+.modalContainer .ant-modal-footer {
+	text-align: left;
+	padding-right: 3rem;
+}
+
+#headingText {
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+}
+
+#subText {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	margin: 1rem 0 1.5rem 0;
+}
+
+.input {
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	font-family: 'Work Sans';
+	padding: 0.75rem 1.125rem;
+	font-size: 1rem;
+	line-height: 1.18rem;
+}
+
+#buttonPrimary {
+	background: radial-gradient(
+		100% 1267.36% at 0% 50%,
+		#f42b4d 0%,
+		#fa541a 100%
+	);
+	border-radius: 30px;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 19px;
+	text-align: center;
+	height: 100%;
+	color: #ffffff;
+	padding: 0.8rem 2rem;
+	margin-bottom: 2rem;
+}
+
+.footerContainer {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+	#headingText {
+		font-size: 1rem;
+		line-height: 1.3rem;
+	}
+
+	#subText {
+		font-size: 0.8rem;
+		line-height: 1rem;
+		margin: 1rem 0 1.5rem 0;
+	}
+
+	.input {
+		border: 1px solid #c4c4c4;
+		border-radius: 5px;
+		font-family: 'Work Sans';
+		padding: 0.75rem 1.125rem;
+		font-size: 1rem;
+		line-height: 1.18rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.modalContainer {
+		padding: auto 5rem;
+	}
+	#headingText {
+		font-size: 3.5rem;
+		line-height: 3.9rem;
+	}
+
+	#subText {
+		font-size: 3.2rem;
+		line-height: 3.5rem;
+		margin: 1rem 0 1.5rem 0;
+	}
+
+	.input {
+		border: 1px solid #c4c4c4;
+		border-radius: 5px;
+		font-family: 'Work Sans';
+		padding: 1.75rem 2.125rem;
+		font-size: 2rem;
+		line-height: 2.18rem;
+	}
+}

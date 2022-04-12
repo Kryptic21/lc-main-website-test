@@ -1,0 +1,55 @@
+.wrapper {
+	padding: 2.5rem 7.3rem;
+	height: 80vh;
+	text-align: center;
+	width: 100%;
+}
+
+#titleText {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 3.68rem;
+}
+
+.subTextWrapper {
+	width: 100%;
+	text-align: center;
+}
+
+#subText {
+	text-align: center;
+	line-height: 1.81rem;
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+	.wrapper {
+		padding: 2rem 1rem;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.wrapper {
+		padding-left: 25rem;
+		padding-right: 25rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.wrapper {
+		padding-left: 25rem;
+		padding-right: 25rem;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	.wrapper {
+		padding: 5% 25%;
+	}
+
+	#titleText {
+		margin-bottom: 2%;
+	}
+}

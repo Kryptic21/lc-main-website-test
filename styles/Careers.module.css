@@ -1,0 +1,317 @@
+.titleWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem 2rem 7.3rem;
+}
+
+#titleText {
+	font-weight: 600;
+	font-size: 2.1rem;
+	line-height: 2.5rem;
+	color: #202125;
+	text-align: center;
+}
+
+.companyPitch {
+	background-color: #f6f6f6;
+	padding: 0rem 7.3rem 10rem 7.3rem;
+}
+
+#companyPitchText {
+	font-weight: normal;
+	font-size: 1.56rem;
+	line-height: 1.81rem;
+	color: #202125;
+}
+
+#currentOpeningsButton {
+	background: radial-gradient(
+		100% 1267.36% at 0% 50%,
+		#f42b4d 0%,
+		#fa541a 100%
+	);
+	padding: 1rem 5rem;
+	border-radius: 100px;
+	height: 100%;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.45rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+.teamMembersWrapper {
+	background: #fff;
+	padding: 5rem 7.3rem;
+}
+
+#foundingMembersSectionHeading {
+	font-weight: 500;
+	font-size: 2.1rem;
+	line-height: 2.5rem;
+	color: #202125;
+	margin-bottom: 3.1rem;
+	text-align: center;
+}
+
+.teamMembersVideosWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+.perksSectionWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+.jobsSectionWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+#jobsSectionHeading {
+	font-weight: normal;
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	color: #202125;
+	margin-bottom: 3.1rem;
+}
+
+.jobsContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sampleJobVideosWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+.emailsSectionWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+.teamMembersPhotosWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+.backedBySectionWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+.companyCard {
+	min-height: 100px;
+}
+
+.investorsCard {
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#investorName {
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.43rem;
+	text-align: center;
+	color: #000000;
+	margin: 1rem 0;
+}
+
+#investorDescription {
+	font-weight: normal;
+	font-size: 1.25rem;
+	line-height: 1.43rem;
+	text-align: center;
+	color: #000000;
+}
+
+#andMoreText {
+	font-weight: normal;
+	font-size: 1.56rem;
+	line-height: 1.81rem;
+	text-align: center;
+	color: #f9472a;
+	margin-top: 2.75rem;
+}
+
+.featuredOnWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+.mTopMore {
+	margin-top: 5.5rem;
+}
+.mTopLess {
+	margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+	.companyPitch,
+	.teamMembersWrapper,
+	.teamMembersVideosWrapper,
+	.perksSectionWrapper,
+	.jobsSectionWrapper,
+	.sampleJobVideosWrapper,
+	.emailsSectionWrapper,
+	.teamMembersPhotosWrapper,
+	.backedBySectionWrapper,
+	.featuredOnWrapper {
+		padding: 2.5rem 1rem;
+	}
+
+	.titleWrapper {
+		padding: 2.5rem 1rem 0 1rem;
+	}
+
+	.companyPitch {
+		padding-top: 1rem;
+	}
+
+	#companyPitchText {
+		font-size: 1rem;
+		line-height: 1.3rem;
+		margin-bottom: 1rem;
+	}
+
+	.investorsCard {
+		min-height: 100px;
+		display: flex !important;
+		flex-direction: column;
+	}
+
+	#titleText {
+		font-size: 1.375rem;
+		line-height: 1.625rem;
+	}
+
+	#foundingMembersSectionHeading {
+		font-size: 1.375rem;
+		line-height: 1.625rem;
+	}
+
+	#jobsSectionHeading {
+		font-size: 1.375rem;
+		line-height: 1.625rem;
+	}
+
+	.videosWeLikeContainer {
+		margin-bottom: 1rem;
+	}
+
+	.textHeader {
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.titleWrapper,
+	.companyPitch,
+	.teamMembersWrapper,
+	.teamMembersVideosWrapper,
+	.perksSectionWrapper,
+	.jobsSectionWrapper,
+	.sampleJobVideosWrapper,
+	.emailsSectionWrapper,
+	.teamMembersPhotosWrapper,
+	.backedBySectionWrapper,
+	.featuredOnWrapper {
+		padding-right: 25rem;
+		padding-left: 25rem;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.titleWrapper,
+	.companyPitch,
+	.teamMembersWrapper,
+	.teamMembersVideosWrapper,
+	.perksSectionWrapper,
+	.jobsSectionWrapper,
+	.sampleJobVideosWrapper,
+	.emailsSectionWrapper,
+	.teamMembersPhotosWrapper,
+	.backedBySectionWrapper,
+	.featuredOnWrapper {
+		padding-right: 25rem;
+		padding-left: 25rem;
+	}
+	#titleText {
+		font-weight: 600;
+		font-size: 4.1rem;
+		line-height: 4.5rem;
+	}
+
+	#companyPitchText {
+		font-size: 3.56rem;
+		line-height: 3.81rem;
+	}
+
+	#foundingMembersSectionHeading {
+		font-size: 4.1rem;
+		line-height: 4.5rem;
+	}
+
+	.textHeader {
+		margin-bottom: 8rem;
+	}
+
+	#jobsSectionHeading {
+		font-size: 3.8rem;
+		line-height: 4.1rem;
+		margin-bottom: 5.1rem;
+	}
+
+	#noJobsMatchText {
+		font-size: 2rem;
+	}
+
+	#investorName {
+		font-size: 2.25rem;
+		line-height: 2.43rem;
+		margin: 2rem 0;
+	}
+
+	#investorDescription {
+		font-size: 2.25rem;
+		line-height: 2.43rem;
+	}
+
+	#andMoreText {
+		font-size: 2.56rem;
+		line-height: 2.81rem;
+		margin-top: 3.75rem;
+	}
+	#currentOpeningsButton {
+		font-size: 2rem;
+		line-height: 2.75rem;
+		height: auto;
+		margin-top: 8rem;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	/* .videosWeLikeContainer {
+		height: 500px;
+	} */
+	.titleWrapper,
+	.companyPitch,
+	.teamMembersWrapper,
+	.teamMembersVideosWrapper,
+	.perksSectionWrapper,
+	.jobsSectionWrapper,
+	.sampleJobVideosWrapper,
+	.emailsSectionWrapper,
+	.teamMembersPhotosWrapper,
+	.backedBySectionWrapper,
+	.featuredOnWrapper {
+		padding-right: 25%;
+		padding-left: 25%;
+	}
+}

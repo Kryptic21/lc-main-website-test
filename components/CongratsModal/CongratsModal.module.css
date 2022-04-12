@@ -1,0 +1,17 @@
+.footerWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.modalBodyWrapper {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.fwBold {
+	font-weight: bold;
+}

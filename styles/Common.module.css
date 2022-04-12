@@ -1,0 +1,21 @@
+.textCenter {
+	text-align: center;
+}
+
+.flexCol {
+	display: flex;
+	flex-direction: column;
+}
+
+.mb2rem {
+	margin-bottom: 2rem;
+}
+
+.highlightedText {
+	color: red;
+	font-weight: 600;
+}
+
+.highlightedTextLight {
+	color: #f42b4d;
+}

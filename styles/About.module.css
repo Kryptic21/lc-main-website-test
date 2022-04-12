@@ -1,0 +1,282 @@
+.aboutSectionWrapper {
+	background-color: #f6f6f6;
+	padding: 2rem 7.3rem;
+}
+
+#headingText {
+	font-size: 2.5rem;
+	font-weight: normal;
+	line-height: 59px;
+}
+.imageWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.carouselImage {
+	width: 100%;
+	min-height: 200px;
+	object-fit: contain;
+}
+
+.whyExistWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+#whyExistDescription {
+	color: #333333;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+}
+
+.genderGraphWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+#genderGraphText {
+	font-weight: normal;
+	font-size: 2.5rem;
+	line-height: 3.06rem;
+	color: #000;
+}
+
+#genderGraphSubtext {
+	font-size: 1.56rem;
+	line-height: 1.8rem;
+	color: #000000;
+}
+
+.statsWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+.whatAreWeNotWrapper {
+	background-color: #fff;
+	padding: 5rem 7.3rem;
+}
+
+.pointsBox {
+	border-radius: 20px;
+	padding: 50px 36px 0 36px;
+	border: 1px solid #636565;
+	/* max-height: 322px; */
+	min-height: 322px;
+	display: flex;
+	flex-direction: column;
+}
+
+#pointHeading {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 35px;
+	color: #333333;
+	margin-bottom: 22px;
+}
+
+#pointDesc {
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	color: #333333;
+}
+
+.currentOpeningsWrapper {
+	background-color: #f6f6f6;
+	padding: 5rem 7.3rem;
+}
+
+#currentOpeningsText {
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	color: #000000;
+}
+
+#currentOpeningsButton {
+	background: radial-gradient(
+		100% 1267.36% at 0% 50%,
+		#f42b4d 0%,
+		#fa541a 100%
+	);
+	border-radius: 100px;
+	height: 100%;
+	padding: 1rem 90px;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.45rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+.pRightMore {
+	padding-right: 5rem;
+}
+
+.pRightLess {
+	padding-right: 1rem;
+}
+
+.genderGraphImageWrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.aboutSectionWrapper,
+	.whyExistWrapper,
+	.genderGraphWrapper,
+	.statsWrapper,
+	.whatAreWeNotWrapper,
+	.currentOpeningsWrapper {
+		padding: 2rem 1rem;
+	}
+	#headingText {
+		font-size: 1.375rem;
+		line-height: 1.625rem;
+		margin-bottom: 1.6rem;
+	}
+	.imageWrapper {
+		justify-content: center;
+	}
+
+	#whyExistDescription {
+		font-size: 1rem;
+		line-height: 1.3rem;
+	}
+	.genderGraphImageWrapper {
+		width: 200px;
+		height: 200px;
+	}
+	#genderGraphText {
+		font-size: 1.375rem;
+		line-height: 1.875rem;
+	}
+	#genderGraphSubtext {
+		font-size: 1rem;
+		line-height: 1.3rem;
+	}
+	.pointsBox {
+		margin-bottom: 1.5rem;
+		min-height: 175px;
+		padding: 1rem;
+	}
+	#pointHeading {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+		margin-bottom: 0.8rem;
+	}
+
+	#pointDesc {
+		font-size: 1.125rem;
+		line-height: 1.31rem;
+	}
+	#currentOpeningsText {
+		font-size: 1.275rem;
+		line-height: 1.625rem;
+	}
+	#currentOpeningsButton {
+		padding-right: 1rem;
+		padding-left: 1rem;
+		padding: 0.5rem;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.teamImage {
+		margin: 2rem 0;
+		margin-bottom: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	.aboutSectionWrapper,
+	.whyExistWrapper,
+	.genderGraphWrapper,
+	.statsWrapper,
+	.whatAreWeNotWrapper,
+	.currentOpeningsWrapper {
+		padding-left: 25rem;
+		padding-right: 25rem;
+	}
+	.genderGraphImageWrapper {
+		width: 400px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.aboutSectionWrapper,
+	.whyExistWrapper,
+	.genderGraphWrapper,
+	.statsWrapper,
+	.whatAreWeNotWrapper,
+	.currentOpeningsWrapper {
+		padding: 2% 25rem;
+	}
+
+	#headingText {
+		font-size: 4.5rem;
+		line-height: 5.68rem;
+	}
+
+	#whyExistDescription {
+		color: #333333;
+		font-size: 3.5rem;
+		line-height: 3.8rem;
+	}
+
+	#genderGraphText {
+		font-size: 4.5rem;
+		line-height: 5.06rem;
+	}
+
+	#genderGraphSubtext {
+		font-size: 3.56rem;
+		line-height: 3.8rem;
+	}
+
+	#pointHeading {
+		font-size: 3.87rem;
+		line-height: 4.18rem;
+		margin-bottom: 22px;
+	}
+
+	#pointsDesc {
+		font-size: 2.87rem;
+		line-height: 3.1rem;
+	}
+
+	#currentOpeningsText {
+		font-size: 3rem;
+		line-height: 3.9rem;
+	}
+	#currentOpeningsButton {
+		font-size: 2rem;
+		line-height: 2.75rem;
+		height: auto;
+		margin-top: 8rem;
+	}
+
+	.image {
+		max-height: 80%;
+		max-width: 80%;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	.aboutSectionWrapper,
+	.whyExistWrapper,
+	.genderGraphWrapper,
+	.statsWrapper,
+	.whatAreWeNotWrapper,
+	.currentOpeningsWrapper {
+		padding: 2% 25%;
+	}
+}

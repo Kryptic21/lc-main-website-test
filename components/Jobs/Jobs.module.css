@@ -1,0 +1,51 @@
+.panelContainer {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+
+.jobsPanel {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#jobDescription {
+	font-size: 1rem;
+}
+
+#expandIcon {
+	font-size: 1rem;
+}
+
+.buttonWrapper {
+	margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+	.jobsContainer {
+		justify-content: center;
+	}
+	.jobsPanel {
+		padding: 0;
+	}
+
+	.panelContainer {
+		font-size: 1rem;
+		padding: 1rem 0;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.panelContainer {
+		font-size: 3.5rem;
+		padding: 3rem 0;
+	}
+
+	#jobDescription {
+		font-size: 3rem;
+	}
+
+	#expandIcon {
+		font-size: 2rem;
+	}
+}

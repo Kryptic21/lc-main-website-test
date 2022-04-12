@@ -1,0 +1,52 @@
+#titleText {
+	font-weight: 500;
+	font-size: 1.875rem;
+	line-height: 2.18rem;
+	color: #373737;
+}
+.videoContainer {
+	height: 215px;
+}
+
+.adText {
+	text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+	.videoContainer {
+		/* height: 250px; */
+		height: 250px;
+		width: 100%;
+		margin: 1rem 0;
+		object-fit: contain;
+		background-size: contain;
+	}
+	#titleText {
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+	}
+	.adText {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+	.videoContainer {
+		height: 500px;
+		width: 100%;
+		margin: 5rem 0;
+	}
+
+	#titleText {
+		font-size: 2.875rem;
+		line-height: 3.18rem;
+	}
+}
+
+@media screen and (min-width: 4000px) {
+	.videoContainer {
+		height: 600px;
+		/* width: 100%; */
+	}
+}

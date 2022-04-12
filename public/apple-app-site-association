@@ -1,0 +1,14 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "TXRGY5ZUB3.com.leap.club",
+				"paths": [
+					"/deeplink/*",
+					"NOT *"
+				]
+			}
+		]
+	}
+}
