@@ -27,7 +27,7 @@ function TeamFaces() {
 					</div>
 					<div className={styles.teamImageStyle}>
 						<img
-							src='/assets/images/team-image-7.jpg'
+							src='/assets/images/team-image-7.png'
 							width='100%'
 							height='100%'
 							alt='Team'
@@ -36,7 +36,7 @@ function TeamFaces() {
 					</div>
 					<div className={styles.teamImageStyle}>
 						<img
-							src='/assets/images/team-image-8.jpg'
+							src='/assets/images/team-image-8.png'
 							width='100%'
 							height='100%'
 							alt='Team'
