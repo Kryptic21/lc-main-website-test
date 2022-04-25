@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Col, Row, Typography } from 'antd'
+import CommonStyles from '../../styles/Common.module.css'
 const { Title, Text } = Typography
 
 import styles from './Jumbotron.module.css'
@@ -15,13 +16,15 @@ const Jumbotron = () => {
 			</Row>
 			<Row>
 				<Title level={3} id={styles.subText}>
-					a community-led professional network for women. make new connections &
-					friends, join communities, and access exclusive experiences.
+					a social-professional{' '}
+					<span className={CommonStyles.strikeout}>network</span> community of
+					women. make new connections & friends, join communities, and access
+					exclusive experiences.
 				</Title>
 			</Row>
 			<Row className={styles.smallTextWrapper}>
 				<Text id={styles.smallText}>
-					~5000 paying members across industries, experience levels, cities.
+					~7000 paying members across industries, experience levels, cities.
 					join the revolution!
 				</Text>
 			</Row>

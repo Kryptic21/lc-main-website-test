@@ -58,11 +58,11 @@ function About() {
 				/>
 				<meta
 					name='description'
-					content='a community led professional network for women. make new connections, join communities, and access exclusive experiences.'
+					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
 				/>
 				<meta
 					property='og:description'
-					content='a community led professional network for women. make new connections, join communities, and access exclusive experiences.'
+					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
 				/>
 				<meta
 					property='twitter:title'
@@ -77,7 +77,7 @@ function About() {
 				/>
 				<meta
 					name='twitter:description'
-					content='a community led professional network for women. make new connections, join communities, and access exclusive experiences.'
+					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
 				/>
 				<meta
 					property='twitter:card'
@@ -91,7 +91,7 @@ function About() {
 				/>
 				<meta
 					property='twitter:description'
-					content='a community led professional network for women. make new connections, join communities, and access exclusive experiences.'
+					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
 				/>
 				<meta
 					property='twitter:image'
@@ -115,9 +115,9 @@ function About() {
 				<Col xs={24} md={12} xxl={10}>
 					<Title id={styles.headingText}>
 						our mission is more women in leadership positions through a private
-						and community-led{' '}
+						and community-led{' '}<br/>
 						<span className={commonStyles.highlightedTextLight}>
-							professional network.
+							social-professional network.
 						</span>
 					</Title>
 				</Col>

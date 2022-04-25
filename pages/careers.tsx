@@ -47,7 +47,7 @@ const Careers: NextPage = () => {
 				/>
 				<meta
 					name='description'
-					content='a community led professional network for women. make new connections, join communities, and access exclusive experiences.'
+					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
 				/>
 				<meta
 					property='og:description'
@@ -117,11 +117,12 @@ const Careers: NextPage = () => {
 								id={styles.companyPitchText}
 								className={CommonStyles.mb2rem}
 							>
-								we are building a community-led professional network for women
-								with a simple mission - more women in leadership positions. we
-								launched in may 2020, have early product-market fit and strong
-								business signals. we are backed by some of the best investors in
-								india.
+								we are building a social-professional{' '}
+								<span className={CommonStyles.strikeout}>network</span> community of
+								women with a simple mission - more women in leadership
+								positions. we launched in may 2020, have early product-market
+								fit and strong business signals. we are backed by some of the
+								best investors in india.
 							</Text>
 							<Text id={styles.companyPitchText}>
 								click{' '}

@@ -19,3 +19,18 @@
 .highlightedTextLight {
 	color: #f42b4d;
 }
+
+.strikeout {
+	width: fit-content;
+	position: relative;
+}
+
+.strikeout::after {
+	border-bottom: 0.125em solid orangered;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: rotate(-10deg);
+}
