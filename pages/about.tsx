@@ -114,10 +114,11 @@ function About() {
 			>
 				<Col xs={24} md={12} xxl={10}>
 					<Title id={styles.headingText}>
-						our mission is more women in leadership positions through a private
-						and community-led{' '}<br/>
+						our mission is more women in leadership positions through a private <br />
 						<span className={commonStyles.highlightedTextLight}>
-							social-professional network.
+							social-professional{' '}
+							<span className={commonStyles.strikeoutBlack}>network</span>{' '}
+							community of women.
 						</span>
 					</Title>
 				</Col>

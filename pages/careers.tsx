@@ -51,7 +51,7 @@ const Careers: NextPage = () => {
 				/>
 				<meta
 					property='og:description'
-					content='we are a powerful and private network of women leaders.'
+					content='we are a powerful and private community of women leaders.'
 				/>
 				<meta
 					property='twitter:title'
@@ -66,7 +66,7 @@ const Careers: NextPage = () => {
 				/>
 				<meta
 					name='twitter:description'
-					content='we are a powerful and private network of women leaders.'
+					content='we are a powerful and private community of women leaders.'
 				/>
 				<meta
 					property='twitter:card'
@@ -80,7 +80,7 @@ const Careers: NextPage = () => {
 				/>
 				<meta
 					property='twitter:description'
-					content='we are a powerful and private network of women leaders.'
+					content='we are a powerful and private community of women leaders.'
 				/>
 				<meta
 					property='twitter:image'

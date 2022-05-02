@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 				/>
 				<meta
 					property='og:description'
-					content='we are a powerful and private network of women leaders.'
+					content='we are a powerful and private community of women leaders.'
 				/>
 				<meta
 					property='twitter:title'

@@ -34,3 +34,18 @@
 	top: 50%;
 	transform: rotate(-10deg);
 }
+
+.strikeoutBlack {
+	width: fit-content;
+	position: relative;
+}
+
+.strikeoutBlack::after {
+	border-bottom: 0.125em solid #313131;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: rotate(-10deg);
+}
