@@ -110,12 +110,11 @@ function About() {
 			<Row className={styles.titleWrapper}>
 				<Col xs={24}>
 					<Title id={styles.titleText}>
-						let&apos;s build a company together - join our all star founding
-						team
+						leap.club | more women in leadership positions
 					</Title>
 				</Col>
 			</Row>
-			
+
 			<Row
 				justify='space-between'
 				// align='middle'
