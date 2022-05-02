@@ -107,6 +107,15 @@ function About() {
 			<Meta />
 			{/* <!-- End Meta Pixel Code → */}
 
+			<Row className={styles.titleWrapper}>
+				<Col xs={24}>
+					<Title id={styles.titleText}>
+						let&apos;s build a company together - join our all star founding
+						team
+					</Title>
+				</Col>
+			</Row>
+			
 			<Row
 				justify='space-between'
 				// align='middle'
@@ -114,7 +123,8 @@ function About() {
 			>
 				<Col xs={24} md={12} xxl={10}>
 					<Title id={styles.headingText}>
-						our mission is more women in leadership positions through a private <br />
+						our mission is more women in leadership positions through a private{' '}
+						<br />
 						<span className={commonStyles.highlightedTextLight}>
 							social-professional{' '}
 							<span className={commonStyles.strikeoutBlack}>network</span>{' '}
