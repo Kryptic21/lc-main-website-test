@@ -1,6 +1,7 @@
 .titleWrapper {
 	background-color: #f6f6f6;
 	padding: 5rem 7.3rem 2rem 7.3rem;
+	display: none;
 }
 
 #titleText {

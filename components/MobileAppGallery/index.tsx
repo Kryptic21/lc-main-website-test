@@ -7,7 +7,7 @@ function MobileAppGallery() {
 		<Carousel autoplay dots={false} className={styles.carouselWrapper}>
 			<div className={styles.imageWrapper}>
 				<img
-					src='/assets/images/app-ss-1.jpg'
+					src='/assets/images/app-ss-7.jpg'
 					className={styles.image}
 					alt='Mobile App Image'
 					// loading='lazy'
@@ -16,7 +16,7 @@ function MobileAppGallery() {
 
 			<div className={styles.imageWrapper}>
 				<img
-					src='/assets/images/app-ss-2.jpg'
+					src='/assets/images/app-ss-8.jpg'
 					className={styles.image}
 					alt='Mobile App Image'
 					// loading='lazy'
@@ -25,7 +25,7 @@ function MobileAppGallery() {
 
 			<div className={styles.imageWrapper}>
 				<img
-					src='/assets/images/app-ss-3.jpg'
+					src='/assets/images/app-ss-9.jpg'
 					className={styles.image}
 					alt='Mobile App Image'
 					// loading='lazy'
@@ -34,7 +34,7 @@ function MobileAppGallery() {
 
 			<div className={styles.imageWrapper}>
 				<img
-					src='/assets/images/app-ss-4.jpg'
+					src='/assets/images/app-ss-10.jpg'
 					className={styles.image}
 					alt='Mobile App Image'
 					// loading='lazy'
@@ -43,7 +43,7 @@ function MobileAppGallery() {
 
 			<div className={styles.imageWrapper}>
 				<img
-					src='/assets/images/app-ss-5.jpg'
+					src='/assets/images/app-ss-11.jpg'
 					className={styles.image}
 					alt='Mobile App Image'
 					// loading='lazy'
@@ -52,7 +52,16 @@ function MobileAppGallery() {
 
 			<div className={styles.imageWrapper}>
 				<img
-					src='/assets/images/app-ss-6.jpg'
+					src='/assets/images/app-ss-12.jpg'
+					className={styles.image}
+					alt='Mobile App Image'
+					// loading='lazy'
+				/>
+			</div>
+
+			<div className={styles.imageWrapper}>
+				<img
+					src='/assets/images/app-ss-13.jpg'
 					className={styles.image}
 					alt='Mobile App Image'
 					// loading='lazy'
