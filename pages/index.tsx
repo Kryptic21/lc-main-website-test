@@ -51,11 +51,11 @@ const Home: NextPage = () => {
 				/>
 				<meta
 					name='description'
-					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
+					content='we are a social-professional community for women.'
 				/>
 				<meta
 					property='og:description'
-					content='we are a powerful and private community of women leaders.'
+					content='we are a social-professional community for women.'
 				/>
 				<meta
 					property='twitter:title'
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
 				/>
 				<meta
 					name='twitter:description'
-					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
+					content='we are a social-professional community for women.'
 				/>
 				<meta property='twitter:card' content='/leap-new-logo.png' />
 				<meta property='twitter:card' content='summary_large_image' />
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
 				/>
 				<meta
 					property='twitter:description'
-					content='a social-professional community for women. make new connections, join communities, and access exclusive experiences.'
+					content='we are a social-professional community for women.'
 				/>
 				<meta
 					property='twitter:image'
